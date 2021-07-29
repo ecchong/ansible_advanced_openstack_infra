@@ -10,7 +10,7 @@ instance_details:
   deployment: dev
   security_group_name: app_servers
 
-- instance_name: db
+- instance_name: appdb1
   group: appdbs
   deployment: dev
   security_group_name: db_servers

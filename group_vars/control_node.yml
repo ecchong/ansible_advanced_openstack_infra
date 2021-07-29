@@ -86,7 +86,7 @@ openstack_servers:
     security_group_name: apps
     image: "{{ _server_image | default('rhel-7.6') }}"
 
-  - instance_name: db
+  - instance_name: appdb1
     group: database_servers
     deployment: dev
     security_group_name: db
